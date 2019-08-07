@@ -2,11 +2,11 @@
 class PlayerShip /*: BattleShip, : Weapons */ {
 
 
-    PlayerShip(int health, int lives, AmmoModel weapons) {
+    public PlayerShip(int health, int lives, WeaponModel weapons) {
         
     }
 
-    public AmmoModel ProtonCannon;   //= new AmmoModel(10, 10, 999, "red");
+   // public AmmoModel ProtonCannon;   //= new AmmoModel(10, 10, 999, "red");
 
     // AmmoModel IonCannon { get; set; }
 

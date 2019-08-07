@@ -1,19 +1,10 @@
 
-public class Level1 : ILevel, BattleShip {
+public class Level1 : ILevel {
 
     int health;
     int lives;
-    AmmoModel weapons;
-    private readonly BattleShip _battleship;
-
-
-    Level1(BattleShip b) {
-        _battleship = b;
-        this.health = _battleship.AircraftHealth;    
-        this.lives = _battleship.AircraftLives;
-        this.weapons = _battleship.AircraftWeapon;
-    }
-
+   
+    WeaponModel playerWeapon = new WeaponModel("ak", 50, 100, 300, "yellow");
 
     public void StartLevel(int lvl) {
 
@@ -23,7 +14,7 @@ public class Level1 : ILevel, BattleShip {
 
         // load player
 
-        PlayerShip player = new PlayerShip(health, lives, weapons); 
+        PlayerShip player = new PlayerShip(100, 3, playerWeapon); 
 
     }
 

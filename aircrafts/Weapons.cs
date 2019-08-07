@@ -1,7 +1,7 @@
 
 public interface Weapons{
 
-    AmmoModel ProtonCannon { get; set; } // yellow
+    WeaponModel ProtonCannon { get; set; } // yellow
 
     // AmmoModel IonCannon { get; set; } // red
 

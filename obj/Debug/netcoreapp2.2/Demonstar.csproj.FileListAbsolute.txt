@@ -1,0 +1,11 @@
+D:\Projects\Demonstar\bin\Debug\netcoreapp2.2\Demonstar.deps.json
+D:\Projects\Demonstar\bin\Debug\netcoreapp2.2\Demonstar.runtimeconfig.json
+D:\Projects\Demonstar\bin\Debug\netcoreapp2.2\Demonstar.runtimeconfig.dev.json
+D:\Projects\Demonstar\bin\Debug\netcoreapp2.2\Demonstar.dll
+D:\Projects\Demonstar\bin\Debug\netcoreapp2.2\Demonstar.pdb
+D:\Projects\Demonstar\obj\Debug\netcoreapp2.2\Demonstar.csprojAssemblyReference.cache
+D:\Projects\Demonstar\obj\Debug\netcoreapp2.2\Demonstar.csproj.CoreCompileInputs.cache
+D:\Projects\Demonstar\obj\Debug\netcoreapp2.2\Demonstar.AssemblyInfoInputs.cache
+D:\Projects\Demonstar\obj\Debug\netcoreapp2.2\Demonstar.AssemblyInfo.cs
+D:\Projects\Demonstar\obj\Debug\netcoreapp2.2\Demonstar.dll
+D:\Projects\Demonstar\obj\Debug\netcoreapp2.2\Demonstar.pdb

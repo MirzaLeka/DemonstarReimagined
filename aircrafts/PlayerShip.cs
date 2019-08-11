@@ -1,30 +1,19 @@
 
-class PlayerShip /*: BattleShip, : Weapons */ {
+class PlayerShip : BattleShip {
 
+    public int AircraftHealth {get; set;}
+    public int AircraftLives {get; set;}
+    public WeaponModel AircraftWeapon {get; set;}
 
-    public PlayerShip(int health, int lives, WeaponModel weapons) {
-        
+    public PlayerShip(int health, int lives, WeaponModel weapon) {
+       this.AircraftHealth = health;
+       this.AircraftLives = lives;
+       this.AircraftWeapon = weapon;
     }
 
-   // public AmmoModel ProtonCannon;   //= new AmmoModel(10, 10, 999, "red");
-
-    // AmmoModel IonCannon { get; set; }
-
-    // AmmoModel PlasmaCannon { get; set; }
-
-    // AmmoModel LaserRay { get; set; }
-
-    // AmmoModel FreeFallBomb { get; set; }
-
-    // AmmoModel ClusterBomb { get; set; }
-
-    // AmmoModel JointStrikeMissiles { get; set; }
-
-    // AmmoModel GuidedMissiles { get; set; }
-
-    // AmmoModel MultiMissiles { get; set; }
-
-    // AmmoModel Flares { get; set; }
+    public string PlayerDetails() {
+        return $"{this.AircraftHealth}, {this.AircraftLives}, {this.AircraftWeapon.WeaponName}";
+    } 
 
 }
 
